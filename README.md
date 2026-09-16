@@ -2,7 +2,7 @@
 
 An end-to-end machine learning pipeline that predicts whether a loan application should be **Approved** or **Rejected**, built to help a simulated bank (SecureTrust Bank) replace slow, inconsistent manual loan verification with a faster, data-driven decision system.
 
-## 📌 Problem Statement
+## Problem Statement
 
 SecureTrust Bank offers personal and home loans across urban and rural India. Loan officers currently evaluate applications manually, which is time-consuming and inconsistent — leading to two costly outcomes:
 - Good applicants get rejected → lost business
@@ -10,19 +10,19 @@ SecureTrust Bank offers personal and home loans across urban and rural India. Lo
 
 This project builds a supervised ML model that learns patterns from historical loan data to predict approval outcomes, supporting (not replacing) human decision-making.
 
-## 📊 Dataset
+## Dataset
 
 - **1,000 applicant records**, 20 columns
 - Features include: `Applicant_Income`, `Coapplicant_Income`, `Employment_Status`, `Age`, `Marital_Status`, `Dependents`, `Credit_Score`, `Existing_Loans`, `DTI_Ratio`, `Savings`, `Collateral_Value`, `Loan_Amount`, `Loan_Term`, `Loan_Purpose`, `Property_Area`, `Education_Level`, `Gender`, `Employer_Category`
 - Target: `Loan_Approved` (Yes/No)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
 - **Environment:** Jupyter Lab (Anaconda)
 
-## 🔍 Project Workflow
+## Project Workflow
 
 1. **Data Cleaning** – Handled missing values using `SimpleImputer` (mean for numerical columns, most frequent for categorical columns)
 2. **Exploratory Data Analysis (EDA)** – Analyzed class balance, income distributions, and outliers via pie charts, bar plots, histograms, and boxplots
@@ -32,7 +32,7 @@ This project builds a supervised ML model that learns patterns from historical l
 6. **Model Training** – Logistic Regression, K-Nearest Neighbors (KNN), Naive Bayes
 7. **Model Evaluation** – Precision, Recall, F1-score, Accuracy, Confusion Matrix
 
-## 📈 Results
+## Results
 
 | Model | Precision | Recall | F1 Score | Accuracy |
 |---|---|---|---|---|
